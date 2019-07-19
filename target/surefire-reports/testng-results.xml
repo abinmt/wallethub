@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-19T17:33:57Z" name="Suite" finished-at="2019-07-19T17:34:22Z" duration-ms="24720">
+  <suite started-at="2019-07-19T17:32:43Z" name="Suite" finished-at="2019-07-19T17:33:05Z" duration-ms="22076">
     <groups>
     </groups>
-    <test started-at="2019-07-19T17:33:57Z" name="Test" finished-at="2019-07-19T17:34:22Z" duration-ms="24720">
+    <test started-at="2019-07-19T17:32:43Z" name="Test" finished-at="2019-07-19T17:33:05Z" duration-ms="22076">
       <class name="com.wallethub.assignments.testcases.UpdateStatus">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.wallethub.assignments.testcases.UpdateStatus@424e1977]" started-at="2019-07-19T17:33:57Z" name="setup" finished-at="2019-07-19T17:34:02Z" duration-ms="4473" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wallethub.assignments.testcases.UpdateStatus@3d34d211]" started-at="2019-07-19T17:32:43Z" name="setup" finished-at="2019-07-19T17:32:48Z" duration-ms="4665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Status()[pri:0, instance:com.wallethub.assignments.testcases.UpdateStatus@424e1977]" started-at="2019-07-19T17:34:02Z" name="Status" finished-at="2019-07-19T17:34:22Z" duration-ms="20084" status="PASS">
+        <test-method signature="Status()[pri:0, instance:com.wallethub.assignments.testcases.UpdateStatus@3d34d211]" started-at="2019-07-19T17:32:48Z" name="Status" finished-at="2019-07-19T17:33:05Z" duration-ms="17265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Status -->
-        <test-method signature="data()[pri:0, instance:com.wallethub.assignments.testcases.UpdateStatus@424e1977]" started-at="2019-07-19T17:34:22Z" name="data" finished-at="2019-07-19T17:34:22Z" duration-ms="103" status="FAIL">
+        <test-method signature="data()[pri:0, instance:com.wallethub.assignments.testcases.UpdateStatus@3d34d211]" started-at="2019-07-19T17:33:05Z" name="data" finished-at="2019-07-19T17:33:05Z" duration-ms="113" status="FAIL">
           <exception class="org.apache.poi.EmptyFileException">
             <message>
               <![CDATA[The supplied file was empty (zero bytes long)]]>
@@ -54,16 +54,20 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.apache.poi.EmptyFileException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- data -->
-        <test-method signature="Hello()[pri:1, instance:com.wallethub.assignments.testcases.UpdateStatus@424e1977]" started-at="2019-07-19T17:34:22Z" name="Hello" finished-at="2019-07-19T17:34:22Z" duration-ms="7" status="PASS">
+        <test-method signature="Hello()[pri:1, instance:com.wallethub.assignments.testcases.UpdateStatus@3d34d211]" started-at="2019-07-19T17:33:05Z" name="Hello" finished-at="2019-07-19T17:33:05Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Hello -->

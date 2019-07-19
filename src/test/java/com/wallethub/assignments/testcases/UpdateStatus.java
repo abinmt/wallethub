@@ -45,27 +45,7 @@ public class UpdateStatus extends Base {
 	}
 	
 	
-	@Test
-	public void  data() {
-		
-		try {
-			FileInputStream fis=new FileInputStream("C:\\Jisha\\Workspace\\Wallethub\\src\\main\\java\\com\\wallethub\\assignments\\testdata\\testdata.xlsx");
-			try {
-				XSSFWorkbook wb=new XSSFWorkbook(fis);
-				wb.getNumberOfSheets();
-				XSSFSheet ws=wb.getSheet("ghghgh");
-				
-				
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	}
+	
 		
     
 }

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.575 s <<< FAILURE! - in TestSuite
+data(com.wallethub.assignments.testcases.UpdateStatus)  Time elapsed: 0.122 s  <<< FAILURE!
+org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at com.wallethub.assignments.testcases.UpdateStatus.data(UpdateStatus.java:54)
+
