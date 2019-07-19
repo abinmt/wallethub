@@ -23,7 +23,7 @@ public class Base {
 		driver=new ChromeDriver();
 		try {
 			prop=new Properties();
-			FileInputStream fis=new FileInputStream("C:\\Jisha\\Workspace\\Wallethub\\src\\main\\java\\com\\wallethub\\assignments\\config\\config.properties");
+			FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\wallethub\\assignments\\config\\config.properties");
 			try {
 				prop.load(fis);
 			} catch (IOException e) {
